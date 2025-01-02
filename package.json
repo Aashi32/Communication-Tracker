@@ -10,14 +10,14 @@
     "@mui/styles": "^6.3.0",
     "chart.js": "^4.4.7",
     "cra-template": "1.2.0",
-    "react": "^19.0.0",
+    "react": "^18.0.0",
     "react-calendar": "^5.1.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1"
   },
-  "homepage": "https://aashi32.github.io/communication-tracker",
+  "homepage": "/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

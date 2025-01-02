@@ -18,7 +18,7 @@ This project is a **React-based Calendar Application** designed to track and man
 - **Notifications:** Grids for overdue and due communications with real-time count badges.
 - **Calendar View:** View past and upcoming communications in a calendar interface.
 
-### Reporting and Analytics Module (Optional)
+### Reporting and Analytics Module
 - **Communication Frequency Report:** Visual reports on communication types and frequency.
 - **Engagement Effectiveness Dashboard:** Metrics to track communication success (response rates).
 - **Overdue Communication Trends:** Trendline showing overdue communications by company.

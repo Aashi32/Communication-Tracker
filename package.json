@@ -18,7 +18,6 @@
     "react-scripts": "5.0.1"
   },
   "homepage": "https://aashi32.github.io/communication-tracker",
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -44,6 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
-

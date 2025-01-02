@@ -1,0 +1,110 @@
+/* Container for the entire User Module */
+.user-module {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Table styling */
+  .company-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  .company-table th,
+  .company-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .company-table th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .company-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Log Form styling */
+  .log-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .log-form h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .log-form select,
+  .log-form input,
+  .log-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .log-form select:focus,
+  .log-form input:focus,
+  .log-form textarea:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .submit-button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .user-module {
+      width: 95%;
+    }
+  
+    .company-table th,
+    .company-table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  

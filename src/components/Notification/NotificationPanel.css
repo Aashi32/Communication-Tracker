@@ -1,0 +1,91 @@
+/* Container for Notification Panel */
+.notification-panel {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Notification Sections */
+.notification-section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notification-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.notification-section.overdue {
+  border-left: 4px solid #e74c3c;
+}
+
+.notification-section.due-today {
+  border-left: 4px solid #f1c40f;
+}
+
+/* Notification List */
+.notification-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notification-section ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notification-section ul li:last-child {
+  border-bottom: none;
+}
+
+/* Text Styling */
+.type {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.company {
+  color: #3498db;
+}
+
+/* Empty State */
+.notification-section p {
+  color: #777;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .notification-panel {
+    width: 95%;
+  }
+
+  .notification-section ul li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,67 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Brand name styling */
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Links container */
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Link styles */
+  .navbar-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 4px;
+  }
+  
+  /* Hover effect */
+  .navbar-links a:hover {
+    background-color: white;
+    color: #4caf50;
+  }
+  
+  /* Active link styles */
+  .active-link {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .navbar-links a {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  

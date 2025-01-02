@@ -36,7 +36,14 @@ Clone the project repository from GitHub:
 
 ```bash
 git clone https://github.com/your-username/communication-tracker.git
+```
 
+### Install Dependencies
+Navigate into your project folder and install the necessary dependencies:
+```bash
+cd communication-tracker
+npm install
+```
 ## Available Scripts
 
 In the project directory, you can run:
